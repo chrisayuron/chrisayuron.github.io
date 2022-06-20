@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 id="title">TITLE</h1>
+    <p id="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, quam.</p>
+
+
+    <form action="" id="survey-form">
+        
+            <label for="name" id="name-label">Name</label>
+            <input type="text" name="nombre" id="name" placeholder="Escribe tu nombre" required>
+        
+
+        
+            <label for="email"  id="email-label">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Ingresa tu email">
+        
+            <label for="number" id="number-label">Age <span>(optional)</span></label>
+            <input type="number" id="number" name="number" min="18" max="99" placeholder="Escribe tu edad">
+
+        
+            <p class="select">Which option best describes your current role</p>
+            <select name="seleccionar" id="dropdown" name="seleccionar">
+                <option value="Select current rule" selected="selected">Select current rule</option>
+                <option value="Student">Student</option>
+                <option value="Full time Job">Full time Job</option>
+                <option value="Full time Learner">Full time Learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Other">Other</option>
+            </select>
+        
+            
+            <p id="radio">Would you recommend freeCodeCamp to a friend?</p>
+            <div class="radio">
+                <div>
+                    <input type="radio"  name="opcion" value="Definitely">
+                    <span> Definitely</span>
+                </div>
+                
+                
+                <div>
+                    <input type="radio" name="opcion" value="Maybe">
+                    <span> Maybe</span>
+                </div>
+                
+                <div>
+                    <input type="radio" name="opcion" value="Not sure"><span> Not sure</span>
+                </div>    
+            </div>
+            
+        
+            <p class="select">What is your favorite feature of freeCodeCamp?</p>
+            <select name="select" id="select">
+                <option name="select" value="Select an option">Select an option</option>
+                <option name="select" value="Challenges">Challenges</option>
+                <option name="select" value="Projects">Projects</option>
+                <option name="select" value="Community">Community</option>
+                <option name="select" value="Open Source">Open Source</option>
+            </select>
+    
+        
+        <p id="check">What would you like to see improved? <span>(Check all that apply)</span></p>
+        <div class="check">
+        <div><input name="checkbox" type="checkbox" value="Front-end Projects">Front-end Projects</div>
+        <div><input name="checkbox" type="checkbox" value="Back-end Projects">Back-end Projects</div>
+        <div><input name="checkbox" type="checkbox" value="Data Visualization">Data Visualization</div>
+        <div><input name="checkbox" type="checkbox" value="Challenges">Challenges</div>
+        <div><input name="checkbox" type="checkbox" value="Open Source">Open Source Community</div>
+        <div><input name="checkbox" type="checkbox" value="Gitter help rooms">Gitter help rooms</div>
+        <div><input name="checkbox" type="checkbox" value="Videos">Videos</div>
+        <div><input name="checkbox" type="checkbox" value="City Meetups">City Meetups</div>
+        <div><input name="checkbox" type="checkbox" value="Wiki">Wiki</div>
+        <div><input name="checkbox" type="checkbox" value="Forum">Forum</div>
+        <div><input name="checkbox" type="checkbox" value="Additional Courses">Additional Courses</div>
+    </div>
+    
+        
+        <p id="sugestion">Any comments or suggestions?</p>
+        <textarea name="" id="coments" placeholder="Enter your comment here..."></textarea>
+    
+        <input type="submit" id="submit" value="Submit">
+    </form>
+
+    <!-- 
+       
+
+
+
+
+
+Dentro del elemento de formulario, puedes seleccionar una opción de un grupo de al menos dos botones de radio que son agrupados utilizando el atributo name
+Dentro del elemento de formulario, puedes seleccionar varios campos en una serie de casillas de verificación, cada una debe tener un atributo value
+Dentro del elemento de formulario, se te presenta un textarea para comentarios adicionales
+Dentro del elemento form, se te presenta un botón con un id de submit para enviar todas las entradas
+Completa las historias de usuario y pasa todas las pruebas a continuación para completar este proyecto. Dale tu propio estilo personal. ¡Que tengas una feliz programación!
+
+Nota: Asegúrate de agregar <link rel="stylesheet" href="styles.css"> en tu HTML para enlazar tu hoja de estilos y aplicar tu CSS
+     -->
+</body>
+</html>
